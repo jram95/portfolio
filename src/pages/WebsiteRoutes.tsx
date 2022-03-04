@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import DogBreed from "./DogBreed";
 import Home from "./Home";
-import Projects from "./Projects";
+import ResourcesApp from "./ResourcesApp";
+import WallGame from "./WallGame";
 
 export default function WebsiteRoutes(): JSX.Element {
   return (
@@ -8,7 +10,9 @@ export default function WebsiteRoutes(): JSX.Element {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/wall-game" element={<WallGame />} />
+          <Route path="/resources" element={<ResourcesApp />} />
+          <Route path="/dog-breed" element={<DogBreed />} />
         </Routes>
       </Router>
     </>
