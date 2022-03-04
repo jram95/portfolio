@@ -13,7 +13,10 @@ export default function Jumbotron(): JSX.Element {
             <img src="wallgame.png" alt="..." />
             <div className="caption">
               <h3 style={{ textAlign: "center" }}>Connecting Wall Game</h3>
-              <p>...</p>
+              <p>
+                Solo "passion project". Inspired by the connecting wall in Only
+                Connect.
+              </p>
               <p>
                 <Nav>
                   <Nav.Link
@@ -38,7 +41,10 @@ export default function Jumbotron(): JSX.Element {
             <img src="resources.png" alt="..." />
             <div className="caption">
               <h3 style={{ textAlign: "center" }}>Resources App</h3>
-              <p>...</p>
+              <p>
+                Built during a 3-week sprint with 3 other coursemates at
+                Academy.
+              </p>
               <p>
                 <Nav>
                   <Nav.Link
@@ -63,7 +69,10 @@ export default function Jumbotron(): JSX.Element {
             <img src="dogbreed.png" alt="..." />
             <div className="caption">
               <h3 style={{ textAlign: "center" }}>Dog Breed Voting App</h3>
-              <p>...</p>
+              <p>
+                Built during a 1 week sprint with 3 other coursemates at
+                Academy. One of my earlier projects.
+              </p>
               <p>
                 <Nav>
                   <Nav.Link
