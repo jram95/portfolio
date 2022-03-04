@@ -22,17 +22,7 @@ export default function NavigationBar(): JSX.Element {
               >
                 Home
               </Nav.Link>
-              <Nav.Link
-                style={{
-                  fontSize: "18px",
-                  padding: "10px",
-                  paddingLeft: "30px",
-                }}
-                as={Link}
-                to="/projects"
-              >
-                Projects Overview
-              </Nav.Link>
+
               <NavDropdown
                 style={{
                   fontSize: "18px",
@@ -42,16 +32,38 @@ export default function NavigationBar(): JSX.Element {
                 title="List of projects"
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
+                <NavDropdown.Item
+                  style={{
+                    fontSize: "18px",
+                    padding: "5px",
+                    paddingLeft: "30px",
+                  }}
+                >
+                  <Nav.Link as={Link} to="/wall-game">
+                    Connecting Wall
+                  </Nav.Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
+                <NavDropdown.Item
+                  style={{
+                    fontSize: "18px",
+                    padding: "5px",
+                    paddingLeft: "30px",
+                  }}
+                >
+                  <Nav.Link as={Link} to="/resources">
+                    Resources App
+                  </Nav.Link>
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item
+                  style={{
+                    fontSize: "18px",
+                    padding: "5px",
+                    paddingLeft: "30px",
+                  }}
+                >
+                  <Nav.Link as={Link} to="/dog-breed">
+                    Dog Breed Voting App
+                  </Nav.Link>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
