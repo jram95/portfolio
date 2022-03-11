@@ -18,8 +18,10 @@ export default function Jumbotron(): JSX.Element {
             fontSize: "medium",
           }}
         >
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+          Having recently completed an intensive software engineering training
+          program, I am excited to be looking for a role where I can grow my
+          technological skillset and contribute towards creating a really cool
+          product.
         </p>
         <hr className="my-4" />
         <Thumbnails />
