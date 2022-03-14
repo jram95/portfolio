@@ -10,7 +10,11 @@ export default function Jumbotron(): JSX.Element {
           style={{ padding: "50px", paddingLeft: "20px" }}
         >
           <div className="thumbnail">
-            <a href="https://connecting-wall-game.netlify.app/" target="_blank">
+            <a
+              href="https://connecting-wall-game.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="wallgame.png" alt="..." />
             </a>
             <div className="caption">
@@ -40,7 +44,11 @@ export default function Jumbotron(): JSX.Element {
           style={{ padding: "50px", paddingLeft: "20px" }}
         >
           <div className="thumbnail">
-            <a href="https://frontend-c3c4.netlify.app/" target="_blank">
+            <a
+              href="https://frontend-c3c4.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="resources.png" alt="..." />
             </a>
             <div className="caption">
@@ -67,7 +75,11 @@ export default function Jumbotron(): JSX.Element {
           style={{ padding: "50px", paddingLeft: "20px", paddingRight: "10px" }}
         >
           <div className="thumbnail">
-            <a href="https://dog-breed-c3b4.netlify.app/" target="_blank">
+            <a
+              href="https://dog-breed-c3b4.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="dogbreed.png" alt="..." />
             </a>
             <div className="caption">
