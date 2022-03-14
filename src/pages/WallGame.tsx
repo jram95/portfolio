@@ -11,8 +11,17 @@ export default function WallGame(): JSX.Element {
           target="_blank"
           rel="noreferrer"
         >
-          See website
+          <img src="wallgame.png" alt="..." />
         </a>
+        <div style={{ fontSize: "19px" }}>
+          <a
+            href="https://connecting-wall-game.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See website
+          </a>
+        </div>
       </div>
       <div style={{ padding: "30px", fontSize: "12px" }}>
         <table className="table">
