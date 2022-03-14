@@ -61,7 +61,7 @@ export default function Jumbotron(): JSX.Element {
                       fontSize: "18px",
                     }}
                     as={Link}
-                    to="/"
+                    to="/resources"
                   >
                     Go to project
                   </Nav.Link>
@@ -95,7 +95,7 @@ export default function Jumbotron(): JSX.Element {
                       fontSize: "18px",
                     }}
                     as={Link}
-                    to="/wall-game"
+                    to="/dog-breed"
                   >
                     Go to project
                   </Nav.Link>
