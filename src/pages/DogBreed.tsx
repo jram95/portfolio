@@ -28,7 +28,7 @@ export default function DogBreed(): JSX.Element {
         style={{
           paddingLeft: "60px",
           paddingRight: "60px",
-          fontSize: "14px",
+          fontSize: "18px",
           textAlign: "justify",
         }}
       >
@@ -47,7 +47,7 @@ export default function DogBreed(): JSX.Element {
           that breed.
         </div>
       </div>
-      <div style={{ padding: "30px", fontSize: "12px" }}>
+      <div style={{ padding: "30px", fontSize: "15px" }}>
         <table className="table">
           <h4 style={{ paddingLeft: "30px", fontSize: "18px" }}>
             <b>Other links</b>
