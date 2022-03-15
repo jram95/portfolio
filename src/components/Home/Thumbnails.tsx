@@ -10,13 +10,11 @@ export default function Jumbotron(): JSX.Element {
           style={{ padding: "50px", paddingLeft: "20px" }}
         >
           <div className="thumbnail">
-            <a
-              href="https://connecting-wall-game.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="wallgame.png" alt="..." />
-            </a>
+            <Nav>
+              <Nav.Link as={Link} to="/wall-game">
+                <img src="wallgame.png" alt="..." />
+              </Nav.Link>
+            </Nav>
             <div className="caption">
               <h3 style={{ textAlign: "center" }}>Connecting Wall Game</h3>
               <p>
@@ -44,13 +42,11 @@ export default function Jumbotron(): JSX.Element {
           style={{ padding: "50px", paddingLeft: "20px" }}
         >
           <div className="thumbnail">
-            <a
-              href="https://frontend-c3c4.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="resources.png" alt="..." />
-            </a>
+            <Nav>
+              <Nav.Link as={Link} to="/resources">
+                <img src="resources.png" alt="..." />
+              </Nav.Link>
+            </Nav>
             <div className="caption">
               <h3 style={{ textAlign: "center" }}>Resources App</h3>
               <p>Built during a 3-week sprint in a 4 person team at Academy.</p>
@@ -75,13 +71,17 @@ export default function Jumbotron(): JSX.Element {
           style={{ padding: "50px", paddingLeft: "20px", paddingRight: "10px" }}
         >
           <div className="thumbnail">
-            <a
-              href="https://dog-breed-c3b4.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="dogbreed.png" alt="..." />
-            </a>
+            <Nav>
+              <Nav.Link
+                style={{
+                  fontSize: "18px",
+                }}
+                as={Link}
+                to="/dog-breed"
+              >
+                <img src="dogbreed.png" alt="..." />
+              </Nav.Link>
+            </Nav>
             <div className="caption">
               <h3 style={{ textAlign: "center" }}>Dog Breed Voting App</h3>
               <p>
