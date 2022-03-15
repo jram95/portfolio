@@ -91,7 +91,7 @@ export default function WallGame(): JSX.Element {
                 </a>
               </td>
               <td>
-                Deloyed my Node.js app to Heroku in order to make requests to my
+                Deloyed Node.js app to Heroku in order to make requests to
                 RESTful API{" "}
               </td>
             </tr>
