@@ -5,7 +5,7 @@ export default function NavigationBar(): JSX.Element {
   return (
     <>
       <Navbar
-        style={{ backgroundColor: "#F16E10", marginBottom: "0px" }}
+        style={{ backgroundColor: "rgb(216 100 100)", marginBottom: "0px" }}
         variant="light"
       >
         <Container>

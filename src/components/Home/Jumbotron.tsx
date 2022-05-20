@@ -3,7 +3,7 @@ import Thumbnails from "./Thumbnails";
 export default function Jumbotron(): JSX.Element {
   return (
     <>
-      <div className="jumbotron">
+      <div className="jumbotron" style={{ backgroundColor: "#fffef8" }}>
         <h2 className="display-4" style={{ paddingLeft: "20px" }}>
           Jenna Ram
         </h2>
