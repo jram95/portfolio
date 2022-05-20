@@ -4,15 +4,47 @@ import { Link } from "react-router-dom";
 export default function Jumbotron(): JSX.Element {
   return (
     <>
-      <div className="row">
+    <div className='container'>
+      <div className="row text-center text-lg-start">
+      <div
+          className="col-lg-4 col-md-4 col-6"
+          style={{ padding: "50px", paddingLeft: "20px" }}
+        >
+          <div className="thumbnail">
+            <Nav>
+              <Nav.Link as={Link} to="/blog">
+                <img className='img-thumbnail' src="blog.png" alt="front page of simple blog" />
+              </Nav.Link>
+            </Nav>
+            <div className="caption">
+              <h3 style={{ textAlign: "center" }}>Next.js Blog</h3>
+              <p>
+                Introduction to Next.js through a blog tutorial.
+              </p>
+              <p>
+                <Nav>
+                  <Nav.Link
+                    style={{
+                      fontSize: "18px",
+                    }}
+                    as={Link}
+                    to="/blog"
+                  >
+                    Go to project
+                  </Nav.Link>
+                </Nav>
+              </p>
+            </div>
+          </div>
+        </div>
         <div
-          className="col-sm-6 col-sm-6"
+          className="col-lg-4 col-md-4 col-6"
           style={{ padding: "50px", paddingLeft: "20px" }}
         >
           <div className="thumbnail">
             <Nav>
               <Nav.Link as={Link} to="/wall-game">
-                <img src="wallgame.png" alt="..." />
+                <img className='img-thumbnail' src="wallgame.png" alt="..." />
               </Nav.Link>
             </Nav>
             <div className="caption">
@@ -38,13 +70,13 @@ export default function Jumbotron(): JSX.Element {
           </div>
         </div>
         <div
-          className="col-sm-6 col-sm-6"
+          className="col-lg-4 col-md-4 col-6"
           style={{ padding: "50px", paddingLeft: "20px" }}
         >
           <div className="thumbnail">
             <Nav>
               <Nav.Link as={Link} to="/resources">
-                <img src="resources.png" alt="..." />
+                <img className='img-thumbnail' src="resources.png" alt="..." />
               </Nav.Link>
             </Nav>
             <div className="caption">
@@ -67,7 +99,7 @@ export default function Jumbotron(): JSX.Element {
           </div>
         </div>
         <div
-          className="col-sm-6 col-sm-6"
+          className="col-lg-4 col-md-4 col-6"
           style={{ padding: "50px", paddingLeft: "20px", paddingRight: "10px" }}
         >
           <div className="thumbnail">
@@ -79,7 +111,7 @@ export default function Jumbotron(): JSX.Element {
                 as={Link}
                 to="/dog-breed"
               >
-                <img src="dogbreed.png" alt="..." />
+                <img className='img-thumbnail' src="dogbreed.png" alt="..." />
               </Nav.Link>
             </Nav>
             <div className="caption">
@@ -104,6 +136,7 @@ export default function Jumbotron(): JSX.Element {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

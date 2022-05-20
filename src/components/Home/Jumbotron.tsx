@@ -20,8 +20,7 @@ export default function Jumbotron(): JSX.Element {
         >
           Having recently completed an intensive software engineering training
           bootcamp, I am excited to be looking for a role where I can grow my
-          technological skillset and contribute towards creating a really cool
-          product.
+          technological skillset and learn as much as possible.
         </p>
         <hr className="my-4" />
         <Thumbnails />

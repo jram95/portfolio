@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function NavigationBar(): JSX.Element {
   return (
     <>
-      <Navbar style={{ backgroundColor: "#F16E10" }} variant="light">
+      <Navbar style={{ backgroundColor: "#F16E10", marginBottom: '0px' }} variant="light">
         <Container>
           <Navbar.Brand style={{ fontSize: "20px" }}>
             Jenna's <br /> Portfolio
