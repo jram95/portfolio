@@ -42,6 +42,17 @@ export default function NavigationBar(): JSX.Element {
                     paddingLeft: "30px",
                   }}
                 >
+                  <Nav.Link as={Link} to="/blog">
+                    Next.js Blog
+                  </Nav.Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  style={{
+                    fontSize: "18px",
+                    padding: "5px",
+                    paddingLeft: "30px",
+                  }}
+                >
                   <Nav.Link as={Link} to="/wall-game">
                     Connecting Wall
                   </Nav.Link>
