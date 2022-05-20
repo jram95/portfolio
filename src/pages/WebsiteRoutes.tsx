@@ -3,7 +3,7 @@ import DogBreed from "./DogBreed";
 import Home from "./Home";
 import ResourcesApp from "./ResourcesApp";
 import WallGame from "./WallGame";
-import Blog from './Blog'
+import Blog from "./Blog";
 
 export default function WebsiteRoutes(): JSX.Element {
   return (
